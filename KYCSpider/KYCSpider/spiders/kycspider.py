@@ -32,7 +32,7 @@ class KYCSpider(scrapy.Spider):
                 address = f[0]
                 phone = f[1]
             
-            phone = phone[phone.find("+"):].rstrip("\n\r") 
+            phone = phone[phone.find("+"):].rstrip("\n\r")
             address = address.rstrip("\n\r") 
             website = c3right.xpath('.//a[contains(@href, "http")]/text()').get()
             
@@ -59,7 +59,6 @@ class KYCSpider(scrapy.Spider):
                                 month = "0" + month
                     dob = month + "/" + day + "/" + year
 
-            #with open('data.json', 'a', encoding='utf8') as json_file:
             yield { 
                     'name': from_name, 
                     'designation': from_designation,
