@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import json
-
-FEED_EXPORT_ENCODING = 'utf-8'
 
 class KYCSpider(scrapy.Spider):
     name = 'kycspider'
@@ -11,7 +8,6 @@ class KYCSpider(scrapy.Spider):
         ]
     allowed_domains = ['www.vlada.si']
     maxdepth = 1
-    open('data.json', 'w', encoding='utf8') #Truncates the data.json file
     def parse(self, response):
         from_designation = ''
         depth = 0;
@@ -72,7 +68,8 @@ class KYCSpider(scrapy.Spider):
                     'email': email,
                     'phone': phone,
                     'website': website,
-                    'sourceURL': sourceURL}
+                    'sourceURL': sourceURL
+                    }
             
          
         elif depth < self.maxdepth:
