@@ -38,7 +38,7 @@ class KYCSpider(scrapy.Spider):
         if self.isNewDoc == False: 
             self.check_deleted()  #Not necessary if it's a new doc
         with open('data.json', 'w', encoding='utf8') as outfile:
-            json.dump(self.data, outfile, ensure_ascii=False)            
+            json.dump(self.data, outfile, ensure_ascii=False, indent = 4)            
     
     def check_deleted(self):
         for p in self.oldData['Government Members']:
@@ -81,7 +81,7 @@ class KYCSpider(scrapy.Spider):
                 address = f[0]
                 phone = f[1]
             
-            phone = phone[phone.find("+"):].rstrip("\n\r")
+            phone = phone[phone.find('T:') + 2:].lstrip(' ').rstrip("\n\r")
             address = address.rstrip("\n\r") 
             website = c3right.xpath('.//a[contains(@href, "http")]/text()').get()
             
