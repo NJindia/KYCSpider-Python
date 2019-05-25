@@ -15,8 +15,7 @@ class KYCSpider(scrapy.Spider):
     newURLs = []
     oldURLs = []
     oldData = ''
-    data = {}
-    data['Government Members'] = []
+    array = []
     
     def __init__(self):
         dispatcher.connect(self.spider_opened, signals.spider_opened)
@@ -27,7 +26,7 @@ class KYCSpider(scrapy.Spider):
             open('data.json', 'r')
             with open('data.json', encoding = 'utf-8-sig') as json_file:  
                 self.oldData = json.load(json_file)
-                for p in self.oldData['Government Members']:
+                for p in self.oldData:
                     self.oldURLs.append(p['sourceURL'])
             self.isNewDoc = False
         #If data.json file doesn't exist, tell spider that this is a new doc
@@ -38,12 +37,12 @@ class KYCSpider(scrapy.Spider):
         if self.isNewDoc == False: 
             self.check_deleted()  #Not necessary if it's a new doc
         with open('data.json', 'w', encoding='utf8') as outfile:
-            json.dump(self.data, outfile, ensure_ascii=False, indent = 4)            
+            json.dump(self.array, outfile, ensure_ascii=False, indent = 4)            
     
     def check_deleted(self):
-        for p in self.oldData['Government Members']:
+        for p in self.oldData:
             if p['sourceURL'] not in self.newURLs:
-                self.data['Government Members'].append({
+                self.array.append({
                     'name': p['name'],
                     'designation': p['designation'],
                     'dob': p['dob'],
@@ -81,7 +80,7 @@ class KYCSpider(scrapy.Spider):
                 address = f[0]
                 phone = f[1]
             
-            phone = phone[phone.find('T:') + 2:].lstrip(' ').rstrip("\n\r")
+            phone = phone[phone.find("+"):].rstrip("\n\r")
             address = address.rstrip("\n\r") 
             website = c3right.xpath('.//a[contains(@href, "http")]/text()').get()
             
@@ -113,7 +112,7 @@ class KYCSpider(scrapy.Spider):
                 operation = 'New'
             else:
                 found = False
-                for p in self.oldData['Government Members']:
+                for p in self.oldData:
                     if sourceURL == p['sourceURL']:
                         found = True
                         #If any data is changed, make operation "Changed"
@@ -124,7 +123,7 @@ class KYCSpider(scrapy.Spider):
                 if found == False:
                     operation = 'New' #If new sourceURL is introduced
                 
-            self.data['Government Members'].append({
+            self.array.append({
                     'name': from_name, 
                     'designation': designation,
                     'dob': dob,
