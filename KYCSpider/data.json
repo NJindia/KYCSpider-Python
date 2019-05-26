@@ -1,191 +1,189 @@
-{
-    "Government Members": [
-        {
-            "name": "Marjan Šarec",
-            "designation": "Prime Minister",
-            "dob": "12/02/1977",
-            "address": "Gregorčičeva 20, 25; 1000 Ljubljana",
-            "email": "gp.kpv@gov.si",
-            "phone": "+386 1 478 1000",
-            "website": "www.kpv.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/prime_minister/prime_minister/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Boštjan Poklukar",
-            "designation": "Minister of the Interior",
-            "dob": "01/27/1971",
-            "address": "Štefanova ulica 2, 1000 Ljubljana",
-            "email": "gp.mnz@gov.si",
-            "phone": "+386 1 428 40 00",
-            "website": "www.mnz.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_the_interior/minister_of_the_interior/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Aleš Šabeder",
-            "designation": "Minister of Health",
-            "dob": "03/04/1970",
-            "address": "Štefanova ulica 5, 1000 Ljubljana",
-            "email": "gp.mz@gov.si",
-            "phone": "+386 1 478 60 01",
-            "website": "www.mz.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_health/minister_of_health/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Zoran Poznič",
-            "designation": "Minister of Culture",
-            "dob": "",
-            "address": "Maistrova ulica 10, 1000 Ljubljana",
-            "email": "gp.mk@gov.si",
-            "phone": "+386 1 369 59 00 ",
-            "website": "www.mk.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_culture/minister_of_culture/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Ksenija Klampfer",
-            "designation": "Minister of Labour, Family, Social Affairs and Equal Opportunities",
-            "dob": "07/27/1976",
-            "address": "Štukljeva 44, 1000 Ljubljana",
-            "email": "gp.mddsz@gov.si",
-            "phone": "+386 1 369 77 00",
-            "website": "www.mddsz.gov.si/en/",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_labour_family_social_affairs_and_equal_opportunities/minister_of_labour_family_social_affairs_and_equal_opportunities/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Aleksandra Pivec",
-            "designation": "Minister of Agriculture, Forestry and Food",
-            "dob": "03/26/1972",
-            "address": "Dunajska cesta 22, 1000 Ljubljana",
-            "email": "gp.mkgp@gov.si",
-            "phone": "+386 1 478 90 00",
-            "website": "www.mkgp.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_agriculture_forestry_and_food/minister_of_agriculture_forestry_and_food/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Zdravko Počivalšek",
-            "designation": "Minister of Economic Development and Technology",
-            "dob": "11/25/1957",
-            "address": "Kotnikova 5, 1000 Ljubljana",
-            "email": "gp.mgrt@gov.si",
-            "phone": "+386 1 400 33 11",
-            "website": "www.mgrt.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_economic_development_and_technology/minister_of_economic_development_and_technology/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Andreja Katič",
-            "designation": "Minister of Justice",
-            "dob": "12/22/1969",
-            "address": "Župančičeva 3, 1000 Ljubljana",
-            "email": "gp.mp@gov.si",
-            "phone": "+386 1 369 53 42",
-            "website": "www.mp.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_justice/minister_of_justice/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Rudi Medved",
-            "designation": "Minister of Public Administration",
-            "dob": "12/28/1959",
-            "address": "Tržaška 21, 1000 Ljubljana",
-            "email": "gp.mju@gov.si",
-            "phone": "+386 1 478 83 30",
-            "website": "www.mju.gov.si/en/",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_public_administration/minister_of_public_administration/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Karl Erjavec",
-            "designation": "Deputy Prime Minister and Minister of Defence",
-            "dob": "06/21/1960",
-            "address": "Vojkova 55, 1000 Ljubljana",
-            "email": "glavna.pisarna@mors.si",
-            "phone": "+386 1 471 22 11",
-            "website": "www.mo.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_defence/minister_of_defence/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Alenka Bratušek",
-            "designation": "Deputy Prime Minister and Minister of Infrastructure",
-            "dob": "03/31/1970",
-            "address": "Langusova ulica 4, 1535 Ljubljana",
-            "email": "gp.mzi@gov.si",
-            "phone": "+386 1 478 80 00",
-            "website": "http://www.mzi.gov.si/en/",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_infrastructure/minister_of_infrastructure/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Peter Jožef Česnik",
-            "designation": "Minister responsible for Relations between the Republic of Slovenia and the Autochthonous Slovenian National Community in Neighbouring Countries, and between the Republic of Slovenia and Slovenians Abroad",
-            "dob": "01/11/1945",
-            "address": "Erjavčeva 15, 1000 Ljubljana",
-            "email": "urad.slovenci@gov.si",
-            "phone": "+386 1 230 80 00",
-            "website": "www.uszs.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/government_offices/office_of_the_government_of_the_republic_of_slovenia_for_slovenians_abroad/minister_responsible_for_relations_between_the_republic_of_slovenia_and_the_autochthonous_slovenian_national_community_in_neighbouring_countries_and_between_the_republic_of_slovenia_and_slovenians_abroad/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Jernej Pikalo",
-            "designation": "Deputy Prime Minister and Minister of Education, Science and Sport",
-            "dob": "05/30/1975",
-            "address": "Masarykova cesta 16, 1000 Ljubljana",
-            "email": "gp.mizs@gov.si",
-            "phone": "+386 1 400 52 00",
-            "website": "www.mizs.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_education_science_and_sport/minister_of_education_science_and_sport/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Andrej Bertoncelj",
-            "designation": "Deputy Prime Minister and Minister of Finance",
-            "dob": "07/28/1957",
-            "address": "Župančičeva 3, 1000 Ljubljana",
-            "email": "gp.mf@gov.si",
-            "phone": "+386 1 369 63 00",
-            "website": "www.mf.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_finance/minister_of_finance/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Iztok Purič",
-            "designation": "Minister responsible for Development, Strategic Projects and Cohesion",
-            "dob": "04/09/1954",
-            "address": "Kotnikova 5, 1000 Ljubljana",
-            "email": "gp.svrk@gov.si",
-            "phone": "+386 1 400 36 80",
-            "website": "www.svrk.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/government_offices/government_office_for_development_and_european_cohesion_policy/minister_responsible_for_development_strategic_projects_and_cohesion/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Miro Cerar",
-            "designation": "Deputy Prime Minister and Minister of Foreign Affairs",
-            "dob": "08/25/1963",
-            "address": "Prešernova 25, 1000 Ljubljana",
-            "email": "info.mzz@gov.si",
-            "phone": "+386 1 478 20 00",
-            "website": "www.mzz.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_foreign_affairs/minister_of_foreign_affairs/",
-            "operation": "Unmodified"
-        },
-        {
-            "name": "Simon Zajc",
-            "designation": "Minister of the Environment and Spatial Planning",
-            "dob": "06/25/1980",
-            "address": "Dunajska 48, 1000 Ljubljana",
-            "email": "gp.mop@gov.si",
-            "phone": "01 / 478 70 00",
-            "website": "www.mop.gov.si/en",
-            "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_the_environment_and_spatial_planning/minister_of_the_environment_and_spatial_planning/",
-            "operation": "Unmodified"
-        }
-    ]
-}
+[
+  {
+    "name": "Marjan Šarec",
+    "designation": "Prime Minister",
+    "dob": "12/02/1977",
+    "address": "Gregorčičeva 20, 25; 1000 Ljubljana",
+    "email": "gp.kpv@gov.si",
+    "phone": "+386 1 478 1000",
+    "website": "www.kpv.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/prime_minister/prime_minister/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Andrej Bertoncelj",
+    "designation": "Deputy Prime Minister and Minister of Finance",
+    "dob": "07/28/1957",
+    "address": "Župančičeva 3, 1000 Ljubljana",
+    "email": "gp.mf@gov.si",
+    "phone": "+386 1 369 63 00",
+    "website": "www.mf.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_finance/minister_of_finance/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Jernej Pikalo",
+    "designation": "Deputy Prime Minister and Minister of Education, Science and Sport",
+    "dob": "05/30/1975",
+    "address": "Masarykova cesta 16, 1000 Ljubljana",
+    "email": "gp.mizs@gov.si",
+    "phone": "+386 1 400 52 00",
+    "website": "www.mizs.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_education_science_and_sport/minister_of_education_science_and_sport/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Miro Cerar",
+    "designation": "Deputy Prime Minister and Minister of Foreign Affairs",
+    "dob": "08/25/1963",
+    "address": "Prešernova 25, 1000 Ljubljana",
+    "email": "info.mzz@gov.si",
+    "phone": "+386 1 478 20 00",
+    "website": "www.mzz.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_foreign_affairs/minister_of_foreign_affairs/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Alenka Bratušek",
+    "designation": "Deputy Prime Minister and Minister of Infrastructure",
+    "dob": "03/31/1970",
+    "address": "Langusova ulica 4, 1535 Ljubljana",
+    "email": "gp.mzi@gov.si",
+    "phone": "+386 1 478 80 00",
+    "website": "http://www.mzi.gov.si/en/",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_infrastructure/minister_of_infrastructure/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Karl Erjavec",
+    "designation": "Deputy Prime Minister and Minister of Defence",
+    "dob": "06/21/1960",
+    "address": "Vojkova 55, 1000 Ljubljana",
+    "email": "glavna.pisarna@mors.si",
+    "phone": "+386 1 471 22 11",
+    "website": "www.mo.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_defence/minister_of_defence/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Boštjan Poklukar",
+    "designation": "Minister of the Interior",
+    "dob": "01/27/1971",
+    "address": "Štefanova ulica 2, 1000 Ljubljana",
+    "email": "gp.mnz@gov.si",
+    "phone": "+386 1 428 40 00",
+    "website": "www.mnz.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_the_interior/minister_of_the_interior/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Zdravko Počivalšek",
+    "designation": "Minister of Economic Development and Technology",
+    "dob": "11/25/1957",
+    "address": "Kotnikova 5, 1000 Ljubljana",
+    "email": "gp.mgrt@gov.si",
+    "phone": "+386 1 400 33 11",
+    "website": "www.mgrt.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_economic_development_and_technology/minister_of_economic_development_and_technology/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Andreja Katič",
+    "designation": "Minister of Justice",
+    "dob": "12/22/1969",
+    "address": "Župančičeva 3, 1000 Ljubljana",
+    "email": "gp.mp@gov.si",
+    "phone": "+386 1 369 53 42",
+    "website": "www.mp.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_justice/minister_of_justice/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Rudi Medved",
+    "designation": "Minister of Public Administration",
+    "dob": "12/28/1959",
+    "address": "Tržaška 21, 1000 Ljubljana",
+    "email": "gp.mju@gov.si",
+    "phone": "+386 1 478 83 30",
+    "website": "www.mju.gov.si/en/",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_public_administration/minister_of_public_administration/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Ksenija Klampfer",
+    "designation": "Minister of Labour, Family, Social Affairs and Equal Opportunities",
+    "dob": "07/27/1976",
+    "address": "Štukljeva 44, 1000 Ljubljana",
+    "email": "gp.mddsz@gov.si",
+    "phone": "+386 1 369 77 00",
+    "website": "www.mddsz.gov.si/en/",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_labour_family_social_affairs_and_equal_opportunities/minister_of_labour_family_social_affairs_and_equal_opportunities/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Aleš Šabeder",
+    "designation": "Minister of Health",
+    "dob": "03/04/1970",
+    "address": "Štefanova ulica 5, 1000 Ljubljana",
+    "email": "gp.mz@gov.si",
+    "phone": "+386 1 478 60 01",
+    "website": "www.mz.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_health/minister_of_health/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Zoran Poznič",
+    "designation": "Minister of Culture",
+    "dob": "",
+    "address": "Maistrova ulica 10, 1000 Ljubljana",
+    "email": "gp.mk@gov.si",
+    "phone": "+386 1 369 59 00",
+    "website": "www.mk.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_culture/minister_of_culture/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Aleksandra Pivec",
+    "designation": "Minister of Agriculture, Forestry and Food",
+    "dob": "03/26/1972",
+    "address": "Dunajska cesta 22, 1000 Ljubljana",
+    "email": "gp.mkgp@gov.si",
+    "phone": "+386 1 478 90 00",
+    "website": "www.mkgp.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_agriculture_forestry_and_food/minister_of_agriculture_forestry_and_food/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Simon Zajc",
+    "designation": "Minister of the Environment and Spatial Planning",
+    "dob": "06/25/1980",
+    "address": "Dunajska 48, 1000 Ljubljana",
+    "email": "gp.mop@gov.si",
+    "phone": "01 / 478 70 00",
+    "website": "www.mop.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/ministries/ministry_of_the_environment_and_spatial_planning/minister_of_the_environment_and_spatial_planning/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Iztok Purič",
+    "designation": "Minister responsible for Development, Strategic Projects and Cohesion",
+    "dob": "04/09/1954",
+    "address": "Kotnikova 5, 1000 Ljubljana",
+    "email": "gp.svrk@gov.si",
+    "phone": "+386 1 400 36 80",
+    "website": "www.svrk.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/government_offices/government_office_for_development_and_european_cohesion_policy/minister_responsible_for_development_strategic_projects_and_cohesion/",
+    "operation": "Unmodified"
+  },
+  {
+    "name": "Peter Jožef Česnik",
+    "designation": "Minister responsible for Relations between the Republic of Slovenia and the Autochthonous Slovenian National Community in Neighbouring Countries, and between the Republic of Slovenia and Slovenians Abroad",
+    "dob": "01/11/1945",
+    "address": "Erjavčeva 15, 1000 Ljubljana",
+    "email": "urad.slovenci@gov.si",
+    "phone": "+386 1 230 80 00",
+    "website": "www.uszs.gov.si/en",
+    "sourceURL": "http://www.vlada.si/en/about_the_government/government_offices/office_of_the_government_of_the_republic_of_slovenia_for_slovenians_abroad/minister_responsible_for_relations_between_the_republic_of_slovenia_and_the_autochthonous_slovenian_national_community_in_neighbouring_countries_and_between_the_republic_of_slovenia_and_slovenians_abroad/",
+    "operation": "Unmodified"
+  }
+]
